@@ -1,0 +1,22 @@
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: Start test public:1:public_expr_ops.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 W: Skip test public:1:public_expr_ops: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: End test public:1:public_expr_ops.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: Start test public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Test public:2:public_expr_fail exited with an error.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: P4b.TokenTypes.InvalidInputException("Expression is wrong") in test public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Raised at P4b__Parser.parse_primary in file "src/parser.ml", line 158, characters 6-56
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_powe in file "src/parser.ml", line 131, characters 19-34
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_mult in file "src/parser.ml", line 119, characters 19-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_add in file "src/parser.ml", line 106, characters 19-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_relat in file "src/parser.ml", line 86, characters 19-35
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_relat in file "src/parser.ml", line 89, characters 18-35
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_eqexp in file "src/parser.ml", line 74, characters 19-37
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_and in file "src/parser.ml", line 64, characters 20-38
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_or in file "src/parser.ml", line 55, characters 24-40
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_expr in file "src/parser.ml", line 51, characters 34-47
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__EvalUtils.parse_expr_from_string in file "src/evalUtils.ml", line 34, characters 15-39
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from Dune__exe__Public.test_expr_fail in file "test/public/public.ml", line 64, characters 2-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: 
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: End test public:2:public_expr_fail.

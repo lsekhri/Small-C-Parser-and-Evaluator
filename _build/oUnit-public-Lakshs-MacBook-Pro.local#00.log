@@ -1,0 +1,296 @@
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Runner: processes
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Chooser: simple
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration suite_name = "public"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration cache_filename = "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/oUnit-$(suite_name).cache"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration run_gc_full_major = "true"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration display = "true"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration results_style_1_X = "false"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration testdata_dir = "none"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration health_check_interval = "1."
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration verbose = "false"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration chooser = "simple"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration output_html_dir = "none"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration processes_kill_period = "5."
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration runner = "processes"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration shards = "2"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration processes_grace_period = "5."
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration log_encoding = "utf-8"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration output_junit_file = "none"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration ci = "false"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Configuration output_file = "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/oUnit-$(suite_name)-$(shard_id).log"
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Using 2 workers maximum.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Starting worker number Lakshs-MacBook-Pro.local#01.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Worker Lakshs-MacBook-Pro.local#01 started.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Starting worker number Lakshs-MacBook-Pro.local#02.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Worker Lakshs-MacBook-Pro.local#02 started.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:1:public_expr_ops, public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: Start test public:1:public_expr_ops.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:1:public_expr_ops, public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 W: Skip test public:1:public_expr_ops: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:1:public_expr_ops, public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:0:public_expr_basic: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: End test public:1:public_expr_ops.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:1:public_expr_ops, public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:2:public_expr_fail, public:0:public_expr_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: Start test public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:3:public_stmt_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:3:public_stmt_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:3:public_stmt_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:3:public_stmt_basic: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:3:public_stmt_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:3:public_stmt_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:3:public_stmt_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:4:public_stmt_control, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:4:public_stmt_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:4:public_stmt_control, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:4:public_stmt_control: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:4:public_stmt_control, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:4:public_stmt_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:4:public_stmt_control, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:5:public_define_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:5:public_define_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:5:public_define_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:5:public_define_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:5:public_define_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:5:public_define_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:5:public_define_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:6:public_define_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:6:public_define_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:6:public_define_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:6:public_define_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:6:public_define_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:6:public_define_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:6:public_define_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:7:public_assign_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:7:public_assign_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:7:public_assign_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:7:public_assign_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:7:public_assign_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:7:public_assign_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:7:public_assign_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:8:public_assign_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:8:public_assign_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:8:public_assign_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:8:public_assign_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:8:public_assign_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:8:public_assign_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:8:public_assign_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:9:public_assign_exp, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:9:public_assign_exp.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:9:public_assign_exp, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:9:public_assign_exp: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:9:public_assign_exp, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:9:public_assign_exp.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:9:public_assign_exp, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:10:public_notequal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:10:public_notequal.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:10:public_notequal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:10:public_notequal: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:10:public_notequal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:10:public_notequal.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:10:public_notequal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:11:public_equal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:11:public_equal.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:11:public_equal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:11:public_equal: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:11:public_equal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:11:public_equal.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:11:public_equal, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:12:public_less, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:12:public_less.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:12:public_less, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:12:public_less: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:12:public_less, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:12:public_less.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:12:public_less, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:13:public_exp_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:13:public_exp_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:13:public_exp_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:13:public_exp_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:13:public_exp_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:13:public_exp_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:13:public_exp_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:14:public_exp_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:14:public_exp_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:14:public_exp_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:14:public_exp_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:14:public_exp_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:14:public_exp_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:14:public_exp_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:15:public_exp_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:15:public_exp_3.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:15:public_exp_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:15:public_exp_3: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:15:public_exp_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:15:public_exp_3.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:15:public_exp_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:16:public_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:16:public_ifelse.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:16:public_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:16:public_ifelse: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:16:public_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:16:public_ifelse.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:16:public_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:17:public_if_else_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:17:public_if_else_while.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:17:public_if_else_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:17:public_if_else_while: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:17:public_if_else_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:17:public_if_else_while.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:17:public_if_else_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:18:public_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:18:public_while.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:18:public_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:18:public_while: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:18:public_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:18:public_while.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:18:public_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:19:public_for, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:19:public_for.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:19:public_for, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:19:public_for: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:19:public_for, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:19:public_for.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:19:public_for, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:20:public_nested_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:20:public_nested_ifelse.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:20:public_nested_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:20:public_nested_ifelse: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:20:public_nested_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:20:public_nested_ifelse.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:20:public_nested_ifelse, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:21:public_nested_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:21:public_nested_while.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:21:public_nested_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:21:public_nested_while: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:21:public_nested_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:21:public_nested_while.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:21:public_nested_while, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:22:public_main, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:22:public_main.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:22:public_main, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:22:public_main: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:22:public_main, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:22:public_main.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:22:public_main, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:23:public_test_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:23:public_test_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:23:public_test_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:23:public_test_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:23:public_test_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:23:public_test_1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:23:public_test_1, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:24:public_test_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:24:public_test_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:24:public_test_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:24:public_test_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:24:public_test_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:24:public_test_2.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:24:public_test_2, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:25:public_test_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:25:public_test_3.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:25:public_test_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:25:public_test_3: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:25:public_test_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:25:public_test_3.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:25:public_test_3, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:26:public_stmt_fail_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:26:public_stmt_fail_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:26:public_stmt_fail_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Test public:2:public_expr_fail exited with an error.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: P4b.TokenTypes.InvalidInputException("Expression is wrong") in test public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Raised at P4b__Parser.parse_primary in file "src/parser.ml", line 158, characters 6-56
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_powe in file "src/parser.ml", line 131, characters 19-34
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_mult in file "src/parser.ml", line 119, characters 19-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_add in file "src/parser.ml", line 106, characters 19-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_relat in file "src/parser.ml", line 86, characters 19-35
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_relat in file "src/parser.ml", line 89, characters 18-35
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_eqexp in file "src/parser.ml", line 74, characters 19-37
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_and in file "src/parser.ml", line 64, characters 20-38
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_or in file "src/parser.ml", line 55, characters 24-40
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__Parser.parse_expr in file "src/parser.ml", line 51, characters 34-47
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from P4b__EvalUtils.parse_expr_from_string in file "src/evalUtils.ml", line 34, characters 15-39
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from Dune__exe__Public.test_expr_fail in file "test/public/public.ml", line 64, characters 2-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 E: 
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:26:public_stmt_fail_basic: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:26:public_stmt_fail_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#02 I: End test public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:26:public_stmt_fail_basic.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 2 tests running: public:26:public_stmt_fail_basic, public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Still 1 tests running : public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 1 tests running: public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Still 1 tests running : public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 1 tests running: public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 W: Skip test public:27:public_stmt_fail_control: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Still 1 tests running : public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 1 tests running: public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Still 1 tests running : public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 1 tests running: public:27:public_stmt_fail_control.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: 0 tests running: .
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Worker Lakshs-MacBook-Pro.local#02 has ended.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Worker Lakshs-MacBook-Pro.local#01 has ended.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Used 2 worker during test execution.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Run 2 tests with shard Lakshs-MacBook-Pro.local#02.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Run 26 tests with shard Lakshs-MacBook-Pro.local#01.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Check health of shard Lakshs-MacBook-Pro.local#02, 5 times.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Check health of shard Lakshs-MacBook-Pro.local#01, 1 times.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: ==============
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Summary:
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:27:public_stmt_fail_control: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:26:public_stmt_fail_basic: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Test public:2:public_expr_fail exited with an error.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: P4b.TokenTypes.InvalidInputException("Expression is wrong") in test public:2:public_expr_fail.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Raised at P4b__Parser.parse_primary in file "src/parser.ml", line 158, characters 6-56
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_powe in file "src/parser.ml", line 131, characters 19-34
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_mult in file "src/parser.ml", line 119, characters 19-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_add in file "src/parser.ml", line 106, characters 19-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_relat in file "src/parser.ml", line 86, characters 19-35
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_relat in file "src/parser.ml", line 89, characters 18-35
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_eqexp in file "src/parser.ml", line 74, characters 19-37
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_and in file "src/parser.ml", line 64, characters 20-38
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_or in file "src/parser.ml", line 55, characters 24-40
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__Parser.parse_expr in file "src/parser.ml", line 51, characters 34-47
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from P4b__EvalUtils.parse_expr_from_string in file "src/evalUtils.ml", line 34, characters 15-39
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from Dune__exe__Public.test_expr_fail in file "test/public/public.ml", line 64, characters 2-36
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 E: 
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:25:public_test_3: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:24:public_test_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:23:public_test_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:22:public_main: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:21:public_nested_while: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:20:public_nested_ifelse: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:19:public_for: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:18:public_while: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:17:public_if_else_while: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:16:public_ifelse: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:15:public_exp_3: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:14:public_exp_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:13:public_exp_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:12:public_less: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:11:public_equal: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:10:public_notequal: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:9:public_assign_exp: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:8:public_assign_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:7:public_assign_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:6:public_define_2: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:5:public_define_1: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:4:public_stmt_control: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:3:public_stmt_basic: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:0:public_expr_basic: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 W: Skip test public:1:public_expr_ops: Test disabled.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Ran: 28 tests in: 0.15 seconds.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Cases: 28.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Tried: 28.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Errors: 1.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Failures: 0.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Skip: 27.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Todo: 0.
+2020-11-21T08:29:40+00:00 Lakshs-MacBook-Pro.local#00 I: Timeout: 0.

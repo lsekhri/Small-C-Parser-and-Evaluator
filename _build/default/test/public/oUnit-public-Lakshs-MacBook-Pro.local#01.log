@@ -1,0 +1,133 @@
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:0:public_expr_basic.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Test public:0:public_expr_basic is successful.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:0:public_expr_basic.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:2:public_expr_fail.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:2:public_expr_fail exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:2:public_expr_fail.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 73, characters 36-78
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__EvalUtils.parse_expr_from_string in file "src/evalUtils.ml", line 34, characters 26-39
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from Dune__exe__Public.test_expr_fail in file "test/public/public.ml", line 53, characters 2-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:2:public_expr_fail.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:3:public_stmt_basic.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:3:public_stmt_basic exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:3:public_stmt_basic.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.assert_stmt_success in file "test/testUtils.ml", line 37, characters 13-23
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from Dune__exe__Public.test_stmt_basic in file "test/public/public.ml", line 85, characters 2-44
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:3:public_stmt_basic.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:6:public_define_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:6:public_define_2 exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:6:public_define_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:6:public_define_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:8:public_assign_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:8:public_assign_2 exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:8:public_assign_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:8:public_assign_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:9:public_assign_exp.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:9:public_assign_exp exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:9:public_assign_exp.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:9:public_assign_exp.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:11:public_equal.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:11:public_equal exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:11:public_equal.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:11:public_equal.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:13:public_exp_1.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:13:public_exp_1 exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:13:public_exp_1.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:13:public_exp_1.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:15:public_exp_3.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:15:public_exp_3 exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:15:public_exp_3.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:15:public_exp_3.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:18:public_while.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:18:public_while exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:18:public_while.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:18:public_while.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:20:public_nested_ifelse.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:20:public_nested_ifelse exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:20:public_nested_ifelse.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:20:public_nested_ifelse.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:21:public_nested_while.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:21:public_nested_while exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:21:public_nested_while.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:21:public_nested_while.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:24:public_test_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:24:public_test_2 exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:24:public_test_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:24:public_test_2.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: Start test public:25:public_test_3.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Test public:25:public_test_3 exited with an error.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: P4b.TokenTypes.InvalidInputException("Doesn't work") in test public:25:public_test_3.
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 E: 
+2020-11-21T19:16:55+00:00 Lakshs-MacBook-Pro.local#01 I: End test public:25:public_test_3.

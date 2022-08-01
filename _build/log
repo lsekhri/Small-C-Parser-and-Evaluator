@@ -1,0 +1,488 @@
+# dune runtest
+# OCAMLPARAM: unset
+# Workspace root:
+# /Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/t2/cwm_z4h51yl1nqbl1b_9yjp40000gn/T/dune663c24.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /Users/lakshsekhri/.opam/4.11.0/bin/ocamlc.opt -config > /var/folders/t2/cwm_z4h51yl1nqbl1b_9yjp40000gn/T/dune726bd2.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/lakshsekhri/.opam/4.11.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/lakshsekhri/.opam/4.11.0/bin"
+#  ; ocaml = Ok External "/Users/lakshsekhri/.opam/4.11.0/bin/ocaml"
+#  ; ocamlc = External "/Users/lakshsekhri/.opam/4.11.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/lakshsekhri/.opam/4.11.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/lakshsekhri/.opam/4.11.0/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/lakshsekhri/.opam/4.11.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default"
+#        ; "MANPATH" :
+#            "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/lakshsekhri/.opam/4.11.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.0"
+#      ; standard_library_default = "/Users/lakshsekhri/.opam/4.11.0/lib/ocaml"
+#      ; standard_library = "/Users/lakshsekhri/.opam/4.11.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin18.0.0"
+#      ; target = "x86_64-apple-darwin18.0.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/lakshsekhri/.opam/4.11.0/bin/ocamldep.opt -modules -impl src/lexer.ml) > _build/default/src/.p4b.objs/lexer.ml.d
+$ (cd _build/default && /Users/lakshsekhri/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -I src/.p4b.objs/byte -I src/.p4b.objs/native -intf-suffix .ml -no-alias-deps -opaque -open P4b -o src/.p4b.objs/native/p4b__Lexer.cmx -c -impl src/lexer.ml)
+$ (cd _build/default && /Users/lakshsekhri/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -a -o src/p4b.cmxa src/.p4b.objs/native/p4b.cmx src/.p4b.objs/native/p4b__TokenTypes.cmx src/.p4b.objs/native/p4b__Lexer.cmx src/.p4b.objs/native/p4b__SmallCTypes.cmx src/.p4b.objs/native/p4b__Utils.cmx src/.p4b.objs/native/p4b__Parser.cmx src/.p4b.objs/native/p4b__EvalUtils.cmx src/.p4b.objs/native/p4b__Eval.cmx)
+$ (cd _build/default && /Users/lakshsekhri/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -o test/student/student.exe /Users/lakshsekhri/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/lakshsekhri/.opam/4.11.0/lib/ocaml src/p4b.cmxa /Users/lakshsekhri/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/lakshsekhri/.opam/4.11.0/lib/ocaml /Users/lakshsekhri/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/lakshsekhri/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/lakshsekhri/.opam/4.11.0/lib/ounit2/oUnit.cmxa test/testUtils.cmxa test/student/.student.eobjs/native/dune__exe__Student.cmx)
+$ (cd _build/default && /Users/lakshsekhri/.opam/4.11.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-32-33-34-39 -g -o test/public/public.exe /Users/lakshsekhri/.opam/4.11.0/lib/ocaml/str.cmxa -I /Users/lakshsekhri/.opam/4.11.0/lib/ocaml src/p4b.cmxa /Users/lakshsekhri/.opam/4.11.0/lib/ocaml/unix.cmxa -I /Users/lakshsekhri/.opam/4.11.0/lib/ocaml /Users/lakshsekhri/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /Users/lakshsekhri/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/lakshsekhri/.opam/4.11.0/lib/ounit2/oUnit.cmxa test/testUtils.cmxa test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default/test/public && ./public.exe)
+> ..EEEEEEEEEEEEEEEEEEEEEEEEEE
+> ==============================================================================
+> Error: public:27:public_stmt_fail_control.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 127, characters 1-1:
+> Error: public:27:public_stmt_fail_control (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 52, characters 12-30
+> Called from P4b__EvalUtils.parse_stmt_from_string in file "src/evalUtils.ml", line 37, characters 26-38
+> Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+> Called from Dune__exe__Public.test_stmt_fail_control in file "test/public/public.ml", line 160, characters 2-59
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:25:public_test_3.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 125, characters 1-1:
+> Error: public:25:public_test_3 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:26:public_stmt_fail_basic.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 114, characters 1-1:
+> Error: public:26:public_stmt_fail_basic (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 14, characters 16-34
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 14, characters 16-34
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 48, characters 14-32
+> Called from P4b__EvalUtils.parse_stmt_from_string in file "src/evalUtils.ml", line 37, characters 26-38
+> Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+> Called from Dune__exe__Public.test_stmt_fail_basic in file "test/public/public.ml", line 144, characters 2-76
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:24:public_test_2.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 115, characters 1-1:
+> Error: public:24:public_test_2 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:23:public_test_1.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 105, characters 1-1:
+> Error: public:23:public_test_1 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:22:public_main.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 95, characters 1-1:
+> Error: public:22:public_main (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:21:public_nested_while.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 105, characters 1-1:
+> Error: public:21:public_nested_while (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:19:public_for.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 85, characters 1-1:
+> Error: public:19:public_for (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:20:public_nested_ifelse.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 96, characters 1-1:
+> Error: public:20:public_nested_ifelse (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:18:public_while.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 86, characters 1-1:
+> Error: public:18:public_while (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:17:public_if_else_while.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 75, characters 1-1:
+> Error: public:17:public_if_else_while (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:16:public_ifelse.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 65, characters 1-1:
+> Error: public:16:public_ifelse (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:15:public_exp_3.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 76, characters 1-1:
+> Error: public:15:public_exp_3 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:14:public_exp_2.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 55, characters 1-1:
+> Error: public:14:public_exp_2 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:13:public_exp_1.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 66, characters 1-1:
+> Error: public:13:public_exp_1 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:12:public_less.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 45, characters 1-1:
+> Error: public:12:public_less (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:11:public_equal.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 56, characters 1-1:
+> Error: public:11:public_equal (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:10:public_notequal.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 35, characters 1-1:
+> Error: public:10:public_notequal (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:9:public_assign_exp.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 46, characters 1-1:
+> Error: public:9:public_assign_exp (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:8:public_assign_2.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 36, characters 1-1:
+> Error: public:8:public_assign_2 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:7:public_assign_1.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 25, characters 1-1:
+> Error: public:7:public_assign_1 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:6:public_define_2.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 26, characters 1-1:
+> Error: public:6:public_define_2 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:5:public_define_1.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 15, characters 1-1:
+> Error: public:5:public_define_1 (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from P4b__Utils.tokenize_from_file in file "src/utils.ml", line 108, characters 10-33
+> Called from TestUtils.create_system_test in file "test/testUtils.ml", line 54, characters 15-58
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:3:public_stmt_basic.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 16, characters 1-1:
+> Error: public:3:public_stmt_basic (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from TestUtils.assert_stmt_success in file "test/testUtils.ml", line 37, characters 13-23
+> Called from Dune__exe__Public.test_stmt_basic in file "test/public/public.ml", line 85, characters 2-44
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:4:public_stmt_control.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#02.log", line 5, characters 1-1:
+> Error: public:4:public_stmt_control (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 44, characters 17-35
+> Called from TestUtils.assert_stmt_success in file "test/testUtils.ml", line 37, characters 13-23
+> Called from Dune__exe__Public.test_stmt_control in file "test/public/public.ml", line 94, characters 2-134
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: public:2:public_expr_fail.
+>
+> File "/Users/lakshsekhri/Desktop/cmscfall2020/cmsc330fall20/project4b/_build/default/test/public/oUnit-public-Lakshs-MacBook-Pro.local#01.log", line 5, characters 1-1:
+> Error: public:2:public_expr_fail (in the log).
+>
+> Raised at P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 82, characters 7-51
+> Called from P4b__Lexer.tokenize.tokhelper in file "src/lexer.ml", line 73, characters 36-78
+> Called from P4b__EvalUtils.parse_expr_from_string in file "src/evalUtils.ml", line 34, characters 26-39
+> Called from TestUtils.assert_eval_fail in file "test/testUtils.ml", line 79, characters 10-23
+> Called from Dune__exe__Public.test_expr_fail in file "test/public/public.ml", line 53, characters 2-35
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.TokenTypes.InvalidInputException("Doesn't work")
+> ------------------------------------------------------------------------------
+> Ran: 28 tests in: 0.12 seconds.
+> FAILED: Cases: 28 Tried: 28 Errors: 26 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+[1]
